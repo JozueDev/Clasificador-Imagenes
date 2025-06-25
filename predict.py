@@ -13,7 +13,7 @@ def cargar_y_procesar(ruta):
     return img_array / 255.0
 
 
-ruta_imagen = "data/validation/1.jpg"
+ruta_imagen = "data/validation/5.jpg"
 img_proc = cargar_y_procesar(ruta_imagen)
 
 # Predecir
